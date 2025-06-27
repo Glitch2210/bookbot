@@ -1,4 +1,5 @@
-from stats import count_words_in_block
+from stats import count_words_in_block 
+from stats import count_char_in_block
 
 def get_book_text(file_path):
     #takes a file path and returns contents as string
@@ -15,6 +16,7 @@ def main():
 
     #prints book_block
     print(count_words_in_block(book_block))
+    print(count_char_in_block(book_block))
     return
 
 main()
